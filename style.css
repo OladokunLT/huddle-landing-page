@@ -21,3 +21,29 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.text-transform {
+    text-transform: capitalize;
+}
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+    background-color: var(--pink);
+    color: white;
+}
+#btn-bar {
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+}
+.hero {
+    /* control the width */
+}
+.grid-hero {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
