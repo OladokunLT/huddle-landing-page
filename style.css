@@ -16,13 +16,27 @@ Primary */
 body {
     font-size: 18px;
 }
+.wrapper {
+    width: 90vw;
+    margin: 20px auto;
+}
 .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    height: 20px;
 }
 .text-transform {
     text-transform: capitalize;
+}
+.hero-h1 {
+    font-size: xx-large;
+}
+.para {
+    margin: 20px 0;
 }
 .btn {
     padding: 10px 30px;
@@ -39,11 +53,33 @@ body {
     border: solid;
 }
 .hero {
-    /* control the width */
+    margin-top: 20px;
 }
 .grid-hero {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+.hero-img {
+    /* width: ; */
+    height: 320px;
+}
+.alt-img {
+    height: 250px;
+}
+.shadow-box {
+    padding: 15px 15px 15px 60px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--very-pale-cyan);
+}
+.fig-flex {
+    display: flex;
+    justify-content: end;
+}
+.rev-grid-hero {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
 }
