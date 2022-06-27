@@ -16,6 +16,7 @@ Primary */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    
 }
 .hero-section {
     padding: 20px 0;
@@ -23,7 +24,7 @@ body {
 .wrapper {
     width: 90vw;
     margin: 0px auto;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .bg-hero{
     background-image: url("images/bg-hero-desktop.svg");
@@ -42,6 +43,7 @@ body {
 .text-transform {
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+    color: var(--very-dark-cyan);
 }
 .hero-h1 {
     font-size: xx-large;
@@ -58,6 +60,7 @@ body {
     color: var(--very-pale-cyan);
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    box-shadow: 2px 1px 10px var(--grayish-blue);
 }
 #btn-bar {
     background: white;
@@ -66,18 +69,19 @@ body {
     border-radius: 20px;
     border: solid white;
     cursor: pointer;
+    box-shadow: 1px 1px 10px var(--grayish-blue);
 }
 .hero {
     margin-top: 20px;
 }
 .flex-hero {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     justify-content: space-between;
 }
 .hero-img {
-    height: 400px;
+    height: 320px;
 }
 .alt-img {
     height: 300px;
@@ -94,7 +98,7 @@ body {
 }
 .rev-flex-hero {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     flex-direction: row-reverse;
 }
@@ -107,16 +111,16 @@ body {
     position: relative;
     bottom: -60px;
     background: white;
+    border-radius: 10px;
 }
 .h2-ready-to-build {
     margin-bottom: 10px;
 }
 .footer {
     background-color: var(--very-dark-cyan);
-    
     padding: 100px 20px 20px 60px;
     font-size: small;
-    color: white;
+    color: var(--very-pale-cyan);
 }
 .grid-footer {
     display: grid;
@@ -139,13 +143,13 @@ body {
 }
 .a-text-decoration {
     text-decoration: none;
-    color: white;
+    color: var(--very-pale-cyan);
 }
 .a-text-decoration:hover {
     text-decoration-line: underline;
 }
 .social-media img {
-    color: white;
+    color: var(--very-pale-cyan);
     display: flex;
     size: 64px;
     cursor: pointer;
@@ -154,7 +158,84 @@ body {
    color: var(--pink) 
 }
 
-@media (max-width: ) {
+@media (max-width: 768px) {
+    .flex-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    .rev-flex-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .hero-img {
+        height: 200px;
+        width: 70vw;
+    }
+    .alt-img {
+        height: 150px;
+        width: 70vw;
+    }
+    .footer {
+        background-color: var(--very-dark-cyan);
+        padding: 100px 10px 20px 40px;
+        font-size: small;
+        color: var(--very-pale-cyan);
+    }
+    .ready-to-build {
+        width: 70vw;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px 10px;
+        box-shadow: 1px 1px 10px var(--very-pale-cyan);
+        position: relative;
+        bottom: -60px;
+        background: white;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .bg-hero{
+        background-image: url("images/bg-hero-mobile.svg");
+        background-color: var(--very-pale-cyan);
+    }
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-gap: 10px; */
+        justify-items: start;
+    }
+    .footer {
+        background-color: var(--very-dark-cyan);
+        /* padding: 100px 10px 20px 10px; */
+        font-size: small;
+        color: var(--very-pale-cyan);
+    }
+    .ready-to-build {
+        width: 90vw;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px 10px;
+        box-shadow: 1px 1px 10px var(--very-pale-cyan);
+        position: relative;
+        bottom: -60px;
+        background: white;
+        border-radius: 10px;
+    }
+    .h2-ready-to-build {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .shadow-box {
+        padding: 15px 15px 15px 15px;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px var(--very-pale-cyan);
+    }
+    
     
 }
-
