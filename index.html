@@ -7,38 +7,42 @@
     <title>huddle</title>
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="main">
-        <div class="wrapper bg-hero">
-            <header class="header-flex">
-                <img src="images/logo.svg" alt="page logo" class="logo" >
-                <button class="text-transform" id="btn-bar">Try it now</button>
-            </header>
-            <section class="hero grid-hero">
-                <article class="text-hero">
-                    <h1 class="hero-h1 text-transform"> Build the community your fans will love</h1>
-                    <p class="para">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Creat connections with your users as you engage in genuine discussion.</p>
-                    <button class="btn text-transform">Get started for free</button>
-                </article>
-                <figure class="fig-flex">
-                    <img 
-                        class="hero-img" 
-                        src="images/illustration-mockups.svg"  
-                        alt="Illustration of mock up"
-                    >
-                </figure>        
-            </section>
+        <section class="hero-section bg-hero">
+            <div class="wrapper">
+                <header class="header-flex">
+                    <img src="images/logo.svg" alt="page logo" class="logo" >
+                    <button class="text-transform" id="btn-bar">Try it now</button>
+                </header>
+                <section class="hero flex-hero">
+                    <article class="text-hero">
+                        <h1 class="hero-h1 text-transform"> Build the community your fans will love</h1>
+                        <p class="para">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Creat connections with your users as you engage in genuine discussion.</p>
+                        <button class="btn text-transform">Get started for free</button>
+                    </article>
+                    <figure class="fig-flex">
+                        <img 
+                            class="hero-img" 
+                            src="images/illustration-mockups.svg"  
+                            alt="Illustration of mock up"
+                        >
+                    </figure>        
+                </section>
+            </div>    
+        </section>
 
-            <section class="grow-together grid-hero shadow-box">
+        <div class="wrapper">
+            <section class="grow-together flex-hero shadow-box">
                 <article>
                     <h2 class="text-transform">Grow together</h2>
-                    <p class="para">Lorem ipsum dolor sit 
-                        amet consectetur adipisicing elit. 
-                        Quidem iure aliquid perspiciatis aut 
-                        corporis vel facilis minus dolorum totam. 
-                        Ab ipsam eaque neque repudiandae a qui dolore, 
-                        molestiae aut molestias?
+                    <p class="para">Generate meaningful discussion with your audience and build a strong loyal community.
+                                    think of the insightful conversation you miss out on a feedback form.
                     </p>
                 </article>
                 <figure class="fig-flex">
@@ -50,15 +54,11 @@
                 </figure>   
             </section>
 
-            <section class="grow-together rev-grid-hero shadow-box">
+            <section class="grow-together rev-flex-hero shadow-box">
                 <article>
                     <h2 class="text-transform">flowing conversation</h2>
-                    <p class="para">Lorem ipsum dolor sit 
-                        amet consectetur adipisicing elit. 
-                        Quidem iure aliquid perspiciatis aut 
-                        corporis vel facilis minus dolorum totam. 
-                        Ab ipsam eaque neque repudiandae a qui dolore, 
-                        molestiae aut molestias?
+                    <p class="para">You wouldn't paginate conversation in real life, so why do it online?
+                        Our threads has just one-in-time for a more natural flow.
                     </p>
                 </article>
                 <figure class="fig-flex">
@@ -70,9 +70,70 @@
                 </figure>   
             </section>
 
-            
+            <section class="grow-together flex-hero shadow-box">
+                <article>
+                    <h2 class="text-transform">Your users</h2>
+                    <p class="para">It takes no time at all to integrate Huddle with your app's authentication solution.
+                        This means, once signed in to your app, your user can start using it.
+                    </p>
+                </article>
+                <figure class="fig-flex">
+                    <img 
+                        class="alt-img" 
+                        src="images/illustration-your-users.svg" 
+                        alt="Illustration of grow together"
+                    >
+                </figure>   
+            </section>
+        </div>
+        <div class="ready-to-build">
+            <h2 class="text-transform h2-ready-to-build">Ready to build your community?</h2>
+            <button class="btn">Get started for free</button>
         </div>
     </main>
-    <footer></footer>
+    <footer class="footer grid-footer">
+        <div class="colunm1">
+            <img 
+                src="images/logo.svg" 
+                alt="page logo" 
+                class="logo logo-footer-color"
+                   
+            >
+            <div class="d-flex-footer">
+                <img class="location-icon"  src="images/icon-location.svg" alt="">
+                <div>Lorem ipsum dolor, sit amet consectetur </div>
+            </div>
+            <div class="d-flex-footer">
+                <img class="location-icon"  src="images/icon-phone.svg" alt="">
+                <div>+1543-123-4567</div>
+            </div>
+            <div class="d-flex-footer">
+                <img class="location-icon"  src="images/icon-email.svg" alt="">
+                <div>example@huddle.com</div>
+            </div>
+        </div>
+
+        <nav class="nav1-footer">
+            <ul class="rm-list-style">
+                <li><a class="a-text-decoration" href="#">About us</a></li>
+                <li><a class="a-text-decoration" href="#">What we do</a></li>
+                <li><a class="a-text-decoration" href="#">FAQ</a></li>
+            </ul>
+        </nav>
+       
+        <nav class="nav2-footer">
+            <ul class="rm-list-style">
+                <li><a class="a-text-decoration" href="#">Career</a></li>
+                 <li><a class="a-text-decoration" href="#">Blog</a></li>
+                 <li><a class="a-text-decoration" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+                
+        <div class="social-media">
+            <img src="images/facebook2.svg" alt="">
+            <img src="images/logo-twitter.svg" alt="">
+            <img src="images/logo-instagram.svg" alt="">
+        </div>
+    </footer>
 </body>
 </html>
