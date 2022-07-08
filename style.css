@@ -74,7 +74,7 @@ body {
 .animate {
     animation-name: change-bg-color;
     animation-duration: 10s;
-    animation-delay: 3s;
+    animation-delay: 1s;
     animation-timing-function: ease-out;
     animation-direction: alternate;
 
