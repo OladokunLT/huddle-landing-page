@@ -71,6 +71,21 @@ body {
     cursor: pointer;
     box-shadow: 1px 1px 10px var(--grayish-blue);
 }
+.animate {
+    animation-name: change-bg-color;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+
+}
+@keyframes change-bg-color {
+    0% {background-color: blue;}
+    25% {background-color: aqua;}
+    50% {background-color: brown;}
+    75% {background-color: aquamarine;}
+    100% {background-color: var(--pink);}
+}
 .hero {
     margin-top: 20px;
 }
